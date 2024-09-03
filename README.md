@@ -23,7 +23,7 @@ TO START WITH SEE THE EXTENSION OF HAVEING THE HTML FILE:
 
 ! head tag is consists of link and title of contant using title tag ,in our case it is Movie Search tilte.
 
-! body tag is consist of <header> tag , main tag and link to link the app.js using <script> tag.
+! body tag is consist of header tag , main tag and link to link the app.js using script tag.
 
 
  
