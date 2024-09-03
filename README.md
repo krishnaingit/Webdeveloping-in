@@ -25,6 +25,11 @@ TO START WITH SEE THE EXTENSION OF HAVEING THE HTML FILE:
 
 ! body tag is consist of header tag , main tag and link to link the app.js using script tag.
 
+! inside the the header tag there will the form tag with id of form and having input tag of attribute of type of containt used to indicate with text, to have autocomplet off state, id of the a name in search , placeholder of name of Search and last of having the class name of search
+
+! main tag is having the id name of main to used to style and used in condition in javascript.
+
+! scrpit tag is used src attribute to link with app.js file.
 
  
 
