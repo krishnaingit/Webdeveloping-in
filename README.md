@@ -67,5 +67,24 @@ font-size: 1rem to them.
 --------------------------------------------------------------------------------------------
 TO CREATE THE FUNCTIONALY TO THE WEBPAGE
 
-! At start which is declar
+! At start which is declaration of API calls with suitable variable name to access to specific variable name for specific api call.
+
+! Declaration of the id name with variable of main,form,search of the give content and getMovies is the function of have paramenter value of APIURL to show the main content while loading.
+
+! While the request is send to them there will be the waiting time , so used async function to the getMovies() with url of them to fetch adn responeDate with actual value.
+
+! console.log is used to see the getting content and having the showMovies() of paramenter value of respDate.results inside the async function of getMovies().
+
+! Then creating the showMovies() function with the parameter input of variable name of movies ,
+ inside them there will be main element with innerHTML properties and movies is consists of forEarch loop to show the relevant content to them of list with movieEl with classList of add function with movie arugument with consists of img tag and div element of having a class name of movie-info and overview with getClassByRate() to see the average review from the people,with h2 tage to display the movie title. with main with appendChild()function of arugements of movieEl inside the showMovies().
+ 
+! The creating the getClassByRate() function with the parameter of vote of having the condition of voting range in greater or equal to 8 are to  indicate with green color and if the vote is greater or equal to f are indicate by orannge and if not statified the both condition then there will be red color indication.
+
+! Then adding the addEventListener to check the error in the form by analysis with the creating the const variable of name searchTerm of have the value of search with value attribute and condition is having for the searchTerm of getMovies() function is having the arguments of SEARCHAPI with searchTerm in them the search value to them.
+
+
+----------------------------------------------------------------------------------------
+# THIS IS THE SIMPLE PROJECT IN MOVIE SEARCHING APP.
+---------------------------------------------------------------------------------------
+
 
